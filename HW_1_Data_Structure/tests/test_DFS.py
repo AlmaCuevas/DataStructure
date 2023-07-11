@@ -19,7 +19,7 @@ g.dfs_visit(0, DFSTimeCounter(), discovery_times, finish_times, dfs_tree_parents
 print('DFS visit discovery and finish times given by your code.')
 print('Node\t Discovery\t Finish')
 for i in range(5):
-    print(f'{i} \t {discovery_times[i]}\t\t {finish_times[i]}')
+    print(f'{i} \t\t {discovery_times[i]}\t\t {finish_times[i]}')
 
 assert (discovery_times[0] == 0), f'Fail: Node 0 expected discovery time must be 0'
 assert (discovery_times[1] == 1), f'Fail: Node 1 expected discovery is 1'

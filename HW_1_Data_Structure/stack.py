@@ -1,3 +1,5 @@
+# Simple interpretation from concept
+
 def top(stack_list: list) -> str:
     """
     :return: The value of top of the stack.

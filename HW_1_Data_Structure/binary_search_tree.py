@@ -1,3 +1,5 @@
+# Instructions and Structure given by Coursera: Trees and Graphs: Basics
+
 class Node:
     # Implement a node of the binary search tree.
     # Constructor for a node with key and a given parent

@@ -1,3 +1,5 @@
+# Instructions and Structure given by Coursera: Trees and Graphs: Basics
+
 # This is a useful data structure for implementing
 # a counter that counts the time.
 class DFSTimeCounter:
@@ -78,7 +80,7 @@ class UndirectedGraph:
 
             if discovery_times[j] != None and finish_times[j] == None:
                 dfs_back_edges.append((i, j))
-            if discovery_times[j] == None:  # Discovery of {j} doesn't exist and we'll look into its edges
+            if discovery_times[j] == None:  # Discovery of {j} doesn't exist, we'll look into its edges
                 dfs_tree_parents[j] = i
                 self.dfs_visit(j, dfs_timer, discovery_times, finish_times,
                                dfs_tree_parents, dfs_back_edges)
